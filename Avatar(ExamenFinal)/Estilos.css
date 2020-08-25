@@ -1,0 +1,53 @@
+﻿body {
+    background-color: #AAA;
+}
+
+.Titulo1 {
+    font-family: Arial;
+    font-size: xx-large;
+    color: dodgerblue;
+}
+
+.DivTitulo {
+    background-color: #fafafa;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #acc;
+    text-align: center;
+}
+
+.Textos {
+    font-family: Arial;
+    font-size: medium;
+    border-style: initial;
+    color: #000000;
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+}
+
+.hijo {
+    padding: 10px;
+    margin: 10px;
+    background-color: aliceblue;
+    width: 150px;
+}
+
+.etiquetas {
+    font-family: Arial;
+    font-size: medium 
+
+}
+
+.Titulo2 {
+    font-family: Arial;
+    font-size: x-large;
+    color: black;
+}
+
+.DivTitulo2 {
+    display: flex;
+    justify-content: center;
+}
