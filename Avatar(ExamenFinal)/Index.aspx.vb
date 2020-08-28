@@ -6,6 +6,7 @@
         lblUsuario.Text = Session("Usuario")
         espacio.Text = "      "
         lblRol.Text = Session("ID")
+
         If (lblRol.Text = "1") Then
             lblRol.Text = "Administrador"
         ElseIf (lblRol.Text = "2") Then

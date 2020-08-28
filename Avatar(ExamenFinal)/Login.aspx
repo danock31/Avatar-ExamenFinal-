@@ -59,7 +59,7 @@
 
       
        <div class="col-2">
-             <asp:TextBox ID="TxtUsuario" runat="server"  CssClass="Textos"></asp:TextBox>    
+             <asp:TextBox ID="TxtUsuario" runat="server"  CssClass="Textos" TextMode="Password"></asp:TextBox>    
         </div>
 
        <div class="col-4">
@@ -81,7 +81,7 @@
 
       
        <div class="col-2">
-             <asp:TextBox ID="TxtContraseña" runat="server" CssClass="Textos"></asp:TextBox> 
+             <asp:TextBox ID="TxtContraseña" runat="server" CssClass="Textos" TextMode="Password"></asp:TextBox> 
         </div>
 
        <div class="col-4">

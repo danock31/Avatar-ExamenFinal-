@@ -8,6 +8,7 @@ Public Class Personas
 
     Protected Sub btnSiguiente_Click(sender As Object, e As EventArgs) Handles btnSiguiente.Click
         Try
+
             obj_personas.idPersona = TxtIdentificacion.Text
             obj_personas.Nombre = TxtNombre.Text
             obj_personas.Apellido1 = TxtApellido1.Text
