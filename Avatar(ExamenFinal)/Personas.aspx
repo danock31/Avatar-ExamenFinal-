@@ -9,8 +9,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Usuario:
-            <asp:Label ID="lblUsuario" runat="server" Text="Label"></asp:Label>
+            <asp:Image ID="Image1" runat="server" Height="53px" ImageUrl="~/Imagenes/descarga1.png" Width="93px" />
+            <asp:Label ID="lblUsuario" runat="server" Text="Label" Font-Strikeout="False"></asp:Label>
             <asp:Label ID="espacio" runat="server" Text="Label"></asp:Label>
             <asp:Label ID="Label1" runat="server" Text="Tipo de Usuario : "></asp:Label>
             <asp:Label ID="lblRol" runat="server" Text="Label"></asp:Label>
@@ -32,7 +32,12 @@
             Correo<asp:TextBox ID="TxtCorreo" runat="server" Height="16px" Width="141px"></asp:TextBox>
             <br />
             <asp:Label ID="Label5" runat="server" Text="Rol"></asp:Label>
-            <asp:DropDownList ID="DropDownList2" runat="server">
+            <asp:DropDownList ID="DropDownList3" runat="server" Height="16px" Width="101px">
+                <asp:ListItem Value="4">Estudiante</asp:ListItem>
+                <asp:ListItem Value="3">Profesor</asp:ListItem>
+                <asp:ListItem Value="2">Administrativo</asp:ListItem>
+            </asp:DropDownList>
+            <asp:DropDownList ID="DropDownList2" runat="server" Height="16px" Width="106px">
                 <asp:ListItem Value="1">Administrador</asp:ListItem>
                 <asp:ListItem Value="2">Administrativo</asp:ListItem>
                 <asp:ListItem Value="3">Profesor</asp:ListItem>

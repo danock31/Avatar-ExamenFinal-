@@ -23,6 +23,15 @@ Partial Public Class Index
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''Image1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
+
+    '''<summary>
     '''lblUsuario control.
     '''</summary>
     '''<remarks>
@@ -59,11 +68,29 @@ Partial Public Class Index
     Protected WithEvents lblRol As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''BtnMatricula control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents BtnMatricula As Global.System.Web.UI.WebControls.ImageButton
+
+    '''<summary>
+    '''ImageButton1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ImageButton1 As Global.System.Web.UI.WebControls.ImageButton
+
+    '''<summary>
     '''btnAgregarPersona control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btnAgregarPersona As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnAgregarPersona As Global.System.Web.UI.WebControls.ImageButton
 End Class

@@ -31,17 +31,12 @@
 <body>
 
     
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <ul class="navbar-nav">
-    <li class="nav-item active">
-      <a class="nav-link" href="#">Depreciaciones</a>
-    </li>
-   
-  </ul>
-</nav>
-
-
     <form id="form1" runat="server">
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <asp:Image ID="Image1" runat="server" Height="53px" ImageUrl="~/Imagenes/descarga1.png" Width="93px" />
+</nav>
 
 
         <div class="text-center">
@@ -135,7 +130,7 @@
                     <td class="auto-style6">
                         &nbsp;</td>
                     <td class="auto-style5">
-                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:AvatarConnectionString %>" SelectCommand="consultaUsuario" SelectCommandType="StoredProcedure">
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DBAvatarFinalConnectionString %>" SelectCommand="consultaUsuario" SelectCommandType="StoredProcedure">
                             <SelectParameters>
                                 <asp:ControlParameter ControlID="TxtUsuario" Name="usuario" PropertyName="Text" Type="String" />
                                 <asp:ControlParameter ControlID="TxtContraseña" Name="contraseña" PropertyName="Text" Type="String" />

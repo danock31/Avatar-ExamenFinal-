@@ -92,13 +92,30 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Comfirmacion.aspx" />
     <Content Include="Estilos.css" />
+    <Content Include="Imagenes\descarga.png" />
+    <Content Include="Imagenes\descarga1.png" />
+    <Content Include="Imagenes\images %281%29.png" />
+    <Content Include="Imagenes\mat-buttons.png" />
     <Content Include="Index.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Materias.aspx" />
+    <Content Include="Matricular.aspx" />
     <Content Include="Personas.aspx" />
+    <Content Include="Usuarios.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clase_Datos.vb" />
+    <Compile Include="Clase_Personas.vb" />
+    <Compile Include="Comfirmacion.aspx.designer.vb">
+      <DependentUpon>Comfirmacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Comfirmacion.aspx.vb">
+      <DependentUpon>Comfirmacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Index.aspx.designer.vb">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
@@ -111,6 +128,20 @@
     </Compile>
     <Compile Include="Login.aspx.vb">
       <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Materias.aspx.designer.vb">
+      <DependentUpon>Materias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Materias.aspx.vb">
+      <DependentUpon>Materias.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Matricular.aspx.designer.vb">
+      <DependentUpon>Matricular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Matricular.aspx.vb">
+      <DependentUpon>Matricular.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -139,6 +170,13 @@
       <DependentUpon>Personas.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Usuarios.aspx.designer.vb">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios.aspx.vb">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -153,6 +191,7 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\PublishProfiles\CustomProfile.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
